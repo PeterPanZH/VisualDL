@@ -4,7 +4,7 @@ import {useRouter} from 'next/router';
 import {useTranslation, Link} from '~/utils/i18n';
 import {rem, headerColor, duration, easing, lighten, transitions} from '~/utils/style';
 
-const navItems = ['scalars', 'samples'];
+const navItems = ['scalars', 'samples', 'graphs', 'highDimension'];
 
 const Nav = styled.nav`
     background-color: ${headerColor};
@@ -80,6 +80,6 @@ const Navbar: FunctionComponent = () => {
             })}
         </Nav>
     );
-}
+};
 
 export default Navbar;
