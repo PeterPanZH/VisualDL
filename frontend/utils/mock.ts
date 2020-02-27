@@ -43,4 +43,4 @@ export default (options: Options) => {
             res.status(500).send(e.message);
         }
     };
-}
+};
